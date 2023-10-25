@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FatherComponent debe hacer match con el snapshot 1`] = `
+<div
+  id="root1"
+>
+  <h1>
+    Padre
+  </h1>
+  <button
+    class="btn btn-dark"
+  >
+    Cargar cliente
+  </button>
+  <br />
+  <br />
+  <code
+    class="mt-2 fs-5 fw-semibold"
+  >
+    
+  </code>
+  <hr />
+  <app-father-son>
+    <h3>
+      Hijo
+    </h3>
+    <code
+      class="mt-2 fs-5 fw-semibold"
+    >
+      
+    </code>
+    <br />
+    <br />
+    
+    
+  </app-father-son>
+</div>
+`;

@@ -42,8 +42,8 @@ describe('CounterComponent', () => {
 
   test('changing the counter it should update the h1 element', () => {
     component.increaseBy(10);
-    fixture.detectChanges(); /*Debemos detectar los cambios para que
-                               haga la comprobación en este caso */
+    fixture.detectChanges();
+    /*Debemos detectar los cambios para que haga la comprobación en este caso */
 
     const h1 = compiled.querySelector('h1');
     expect(h1?.textContent).toContain('20')
